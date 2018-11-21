@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+   <head>
+        <link rel="stylesheet" href="style.css" />
+       <title>Informacje na podstawie książki Bear'a Gryllsa</title>
+       <meta charset="UTF-8">
+
+   </head>
+   <body>
+ 	<header>
+        <h1>"Bear Grylls - urodzony aby przetrwać"</h1>
+	
+ 	</header>
+
+<p><strong>Treści zawarte na tej stronie mogą być nieodpowiednie dla młodszych użytkowników, wpisz swój wiek i przekonaj się, czy możesz dalej czytać.</strong></p>
+
+<input id="age" value="" />
+
+<button onclick="myFunction()">Wyślij</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var age, voteable;
+    age = Number(document.getElementById("age").value);
+    if (isNaN(age)) {
+        voteable = "To nie liczba";
+    } else {
+        voteable = (age < 12) ? "Niestety nie możesz" : "Śmiało czytaj!";
+    }
+    document.getElementById("demo").innerHTML = voteable;
+}
+</script>
+
+
+<div onmousedown="WhichButton(event)"><p><strong>Naciśnij na to pole, a otrzymasz liczbę.</strong><p>
+  <p>
+  0 = Nacisnąłeś lewy przycisk myszki.<br>
+  1 = Nacisnąłeś środkowy przycisk myszki.<br>
+  2 = Nacisnąłeś prawy przycisk myszki
+  </p>
+
+  
+</div>
+
+<script>
+function WhichButton(event) {
+    alert("Nacisnąłeś przycisk: " + event.button)
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+        <p>W niniejszym artykule poznasz parę podstaw dotyczących survivalu od samego mistrza przetrwania - Bear'a Gryllsa. Rady te pochodzą z jego książki o tytule podanym wyżej. Być może będą zachętą dla Ciebie abyś sięgnął po jego dzieło.Kto wie, może kiedyś ta wiedza okaże się przydatna (na przykład podczas apokalipsy zombie) ;) </p>
+ 
+        <p><strong>"Silnych ludzi kształtują przeciwności - jak latawce, które wzbijają się pod wiatr"</strong>	<em> Nelson Mandela</em></p>
+ 
+        <img src="https://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F756be9f0-bb31-11e7-b7b5-90f864fcf112.jpg?crop=2653%2C1492%2C18%2C798&amp;resize=685" alt="bearg" title="bear">
+        <h2>To, co absolutnie najważniejsze </h2>
+        
+        <ul>
+    
+    <li>Priorytety przetrwania:
+        <ol>
+            <li>BEZPIECZEŃSTWO - jest to bezwzględny priorytet, należy zapewnić sobie bezpieczeństwo przed ekstremalnymi warunkami zewnętrznymi: groźnymi zwierzętami, rozbitym samolotem itd. </li>
+            <li>RATUNEK - następnie należy wezwać pomoc - choćby poprzez ułożenie z kamieni wielkiego napisu SOS, co istotne - nie należy oddalać się od tego miejsca (o ile jest to bezpieczne) i czekać spokojnie na pomoc. Jeżeli ona nie nadejdzie w ciągu kilu dni, trzeba będzie pomyśleć o tym, jak się uratować. </li>
+            <li>WODA - pamiętaj o regule trzech trójek: człowiek jest w stanie przeżyć trzy godziny bez porządnej osłony przed upałem lub zimnem, trzy dni bez wody i aż trzy tygodnie bez jedzenia.To określa twój nastepny priorytet.</li>
+            <li>JEDZENIE - energia będzie ci potrzebna, zwłaszcza jeśli dalej musisz ruszyć o własnych siłach. Jeśli brakuje ci wody, ogranicz ilość jedzenia, zwłaszcza to, które zawiera dużo białka - na jego trawienie organizm zużywa dużo płynów. </li>
+        </ol>
+    </li>
+    <li>Oto więc cztery priorytety przetrwania - w takiej, a nie innej kolejności.</li>
+</ul>
+	<h3> PRZYDATNE ROŚLINY </h3>
+	<p> W życiu codziennym rośliny są jednym z najwazniejszych źródeł pożywienia, ale gdy nieszczęśliwym zrządzeniem losu znajdziemy się na odludziu, w sytuacji walki o przetrwanie, nabierają dodatkowego znaczenia.<br>Oto więc krótki przegląd roślin, które mogą okazać się bardzo przydatne</p>
+
+<table border="10">
+	
+	<caption><strong>PRZEGLĄD JADALNYCH ROŚLINEK</strong></caption>
+	
+					<tr><td></td><th>MNISZEKLEKARSKI</th><th>POKRZYWA</th><th>DZIKA RÓŻA</th><th>LILIA WODNA</th><th>BAMBUS</th></tr>
+
+	<tr><th>OPIS</th><td>jego liście są bogate w wapń oraz witaminy A i C, można jeść je na surowo bądź gotowane, korzenie stanowią niezły substytut kawy</td><td>młode pędy i liście są jadalne i pożywne, liście na szczycie zawierają dużo białka, pokrzywę należy gotować przez 15 minut</td><td>jedno z najbogatszych roślinnych źródeł witaminy C, zawiera także A,D i E, najlepiej spożywać w formie naparu</td><td>kwiaty i korzenie można jeść na surowo lub ugotowane, płyn z ugotowanych korzeni łagodzi biegunkę i ból gardła</td><td>młode pędy można jeść na surowo lub gotowane, jest to też świetny budulec z którego konstruuje się wszelkie schronienia</td></tr>
+
+</table>
+	
+
+	<h4>Ognisko</h4>
+	
+	
+	
+	<p> Kiedy nagle znajdziesz się samotnie w nieznanym i wrogim świecie, zwłaszcza gdy zapadnie zmrok i zrobi się zimno, ogień może okazać się jedynym prawdziwym przyjacielem. Da ci wiele - światło, ciepło, możliwość gotowania i suszenia, odpędzi też dzikie zwięrzęta i dokuczliwe owady- ale gdy zabraknie nowoczesnej techniki i narzędzi, jego zdobycie może okazać się bardzo trudne. </p>
+	
+	
+	
+	
+	
+    <p> Poniżej znajdziesz krótki filmik, który opisuje jak rozpalić ognisko:
+   
+    <br><a href="https://www.youtube.com/watch?v=wx5MY0LvYgU">Jak rozpalić ognisko</a></p>
+    
+    <p> A tutaj zobaczysz jak Bear rozpala ognisko za pomocą baterii od telefonu!:
+    <br><a href="https://www.youtube.com/watch?v=7gZ8FHEUCl8">Ognisko z baterii</a></p>
+    
+	
+	
+
+ 
+
+
+    <p> A ty jak oceniasz swoje "zdolności do przetrwania"?</p> 
+  <form action="mailto:natalia.norek1@gmail.com" method="post">
+     <p>Nick:</p>
+     <br>
+     <input type="text" name="firstname" value="">
+     
+     <p><input type="radio" name="opcja" value="opcja nr 1" checked="checked"> Dość słabo</p>
+     <p><input type="radio" name="opcja" value="opcja nr 2"> Całkiem nieźle</p>
+     <p><input type="radio" name="opcja" value="opcja nr 3"> Jestem mistrzem tej gry</p>
+    <input type="submit" value="Wyślij">
+  </form>
+    
+
+        
+	
+	
+
+    </body>
+</html>
